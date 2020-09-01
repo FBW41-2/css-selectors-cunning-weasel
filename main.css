@@ -7,12 +7,28 @@
   }
   
   /* Task 1 */
+  h3 {
+    color: blue; 
+  }
   
   /* Task 2 */
-  
-  /* Task 3 */
-  
+.li-color {
+   color: red;
+ }
+
+  /* Task 3 Select the sibling of the first image using a combinator. Give the image a border*/
+  img:first-of-type + img {
+    border: pink;
+    border-style: solid;
+  }
+
   /* Task 4 */
-  
-  /* Task 5 */
-  
+  a[href$=".com"] {
+    background-color: yellow;
+  }
+
+  /* Task 5 Give */
+  #this {
+    color: red;
+  }
+
